@@ -1,0 +1,12 @@
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: PDF_TO_TEXT_CONFIG
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bhargav-raj-199/pdftotext-repository.git/
